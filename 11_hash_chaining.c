@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#define TABLE_SIZE 10
+
 
 struct node { int data; struct node *next; };
 struct node *hash_table[TABLE_SIZE];
